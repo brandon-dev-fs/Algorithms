@@ -1,9 +1,9 @@
 # Algorithms\n
-Code files for algorthims from "Introduction to Algortihms 3rd edition"\n
+Code files for algorthims from "Introduction to Algortihms 3rd edition"'\n'
 
-File structure is as follows:\n
+File structure is as follows:'\n'
 /Problem\n
-\t-> /Algorithm\n
+\t-> /Algorithm'\n'
 \t\t->  /Programming Language\n
   
 C/C++ code can be compiled via gcc/g++ compilers\n
