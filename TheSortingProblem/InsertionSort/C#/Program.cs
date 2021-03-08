@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 
 namespace insertionsort
 {
@@ -49,4 +49,3 @@ namespace insertionsort
         }
     }
 }
-
