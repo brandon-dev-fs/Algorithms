@@ -37,7 +37,7 @@ namespace insertionsort
         }
 
         static void insertionsort(ref int[] list){
-            for(int i = 0; i < list.Length; i++){
+            for(int i = 1; i < list.Length; i++){
                 int key = list[i];
                 int j = i - 1;
                 while(j >= 0 && list[j] > key){
