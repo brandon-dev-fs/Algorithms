@@ -18,5 +18,5 @@ for i = 1 to A.length
     A[j + 1] = k
 ```
 
-> Assumptions
->   -Arrays are 0 indexed
+Assumptions:
+>- Arrays are 0 indexed
