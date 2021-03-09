@@ -10,7 +10,7 @@ File structure is as follows:
 
 ### Notes
 
-==========================================================================================================================
+=================================================
 
   1. C/C++ code can be compiled via gcc/g++ compilers (Original Compilation is from [mingw-w64](http://mingw-w64.org/doku.php))
   2. C# code is compiled and ran through dotnet
