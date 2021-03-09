@@ -1,6 +1,6 @@
 # THE SORTING PROBLEM
 
-###Sorting problems can be defined as
+### Sorting problems can be defined as
 
 | Input | Output |
 | --- | --- |
