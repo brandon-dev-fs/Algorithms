@@ -1,6 +1,6 @@
 # Algorithms
 
-Repository for hosting code for algorithms from "Introduction to Algortihms 3rd edition"
+Repository for hosting code for algorithms from "Introduction to Algortihms 3rd edition" [^1]
 
 File structure is as follows:
   - /Algorithms 
