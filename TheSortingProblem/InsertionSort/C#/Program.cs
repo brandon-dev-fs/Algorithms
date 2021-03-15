@@ -8,9 +8,8 @@ namespace insertionsort
         {
             for (int x = 0; x < 10; x++){
                 int [] test = new int [25];
-                var rand = new Random(x);
                 for (int y = 0; y < test.Length; y++){
-                    test[y] = rand.Next(-101,101);
+                    test[y] = random_Int(100);
                 }
                 Console.WriteLine("Test "+(x+1)+": ");
                 sortProgram(test);
@@ -49,6 +48,19 @@ namespace insertionsort
                 }
                 list[j+1] = key;
             }
+        }
+
+        static int random_Int(int n) {
+            int r;
+            if(n <= 0){
+                return 0;
+            }
+            do {
+                var random = new Random();
+                r = random.Next();
+            }
+            while( r >= (2147483647 / n * n));
+            return r / (2147483647 / n);
         }
     }
 }
