@@ -7,20 +7,20 @@ namespace insertionsort
         static void Main(string[] args)
         {
             for (int x = 0; x < 10; x++){
-                int [] test = new int [25];
+                int [] test = new int [10];
                 for (int y = 0; y < test.Length; y++){
                     test[y] = random_Int(100);
                 }
-                Console.WriteLine("Test "+(x+1)+": ");
+                Console.WriteLine("Test "+(x+1));
                 sortProgram(test);
             }
         }
 
         static void sortProgram(int [] list){
-            Console.WriteLine("Unsorted List:");
+            Console.Write("Unsorted List: ");
             printList(list);
             insertionsort(ref list);
-            Console.WriteLine("Sorted List:");
+            Console.Write("Sorted List: ");
             printList(list);
             Console.Write("\n"); 
         }
