@@ -16,10 +16,10 @@ namespace insertionsort
             }
         }
 
-        static void sortProgram(int [] list){
+        static void sortProgram(int[] list){
             Console.Write("Unsorted List: ");
             printList(list);
-            insertionsort(ref list);
+            insertionsort(list);
             Console.Write("Sorted List: ");
             printList(list);
             Console.Write("\n"); 
@@ -38,7 +38,7 @@ namespace insertionsort
             Console.Write("\n");        
         }
 
-        static void insertionsort(ref int[] list){
+        static void insertionsort(int[] list){
             for(int i = 1; i < list.Length; i++){
                 int key = list[i];
                 int j = i - 1;
