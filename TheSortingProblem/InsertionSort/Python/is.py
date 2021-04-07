@@ -1,4 +1,4 @@
-from random import *
+from random import randrange, seed, randint
 
 def insertion_sort(nums):
     for x in range(len(nums)-1):
