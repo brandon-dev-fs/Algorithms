@@ -9,12 +9,11 @@ def insertion_sort(nums):
             j -= 1
         nums[j + 1] = k
 
-def build(nums):
+def build_set(nums):
     for x in range(10):
         nums[x - 1] = randrange(100)
 
 seed(1)
-
 for x in range(10):
     nums = []
     for y in range(10):
@@ -25,5 +24,3 @@ for x in range(10):
     insertion_sort(nums)
     print("Sorted: ", end='')
     print(*nums, sep=", ")
-    #print('\n')
-
